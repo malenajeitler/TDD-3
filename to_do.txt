@@ -1,5 +1,5 @@
-TC_1: ("Normal Item", 10, 20) => (9, 19)
-TC_2: ("Normal Item", 0, 20) => (-1, 18)
+TC_1: ("Normal Item", 10, 20) => (9, 19) // done
+TC_2: ("Normal Item", 0, 20) => (-1, 18) // done
 TC_3: ("Normal Item", 10, 0) => (9, 0)
 TC_4: ("Aged Brie", 10, 20) => (9, 21)
 TC_5: ("Aged Brie", 10, 50) => (9, 50)

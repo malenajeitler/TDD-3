@@ -9,4 +9,12 @@ describe("Gilded Rose", function() {
     expect(items[0].quality).toEqual(19);
   });
 
+  // TC_2
+  it("should degrade quality twice as fast once the sell by date has passed", function() {
+    const gildedRose = new Shop([ new Item("Normal Item", 0, 20) ]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].sellIn).toEqual(-1);
+    expect(items[0].quality).toEqual(18);
+  });
+
 });
