@@ -5,6 +5,6 @@ TC_4: ("Aged Brie", 10, 20) => (9, 21) // done
 TC_5: ("Aged Brie", 10, 50) => (9, 50) // done
 TC_6: ("Sulfuras, Hand of Ragnaros", 10, 80) => (10, 80) // done
 TC_7: ("Backstage passes to a TAFKAL80ETC concert", 20, 20) => (19, 21) // done
-TC_8: ("Backstage passes to a TAFKAL80ETC concert", 10, 20) => (9, 22)
+TC_8: ("Backstage passes to a TAFKAL80ETC concert", 10, 20) => (9, 22) // done
 TC_9: ("Backstage passes to a TAFKAL80ETC concert", 5, 20) => (4, 3)
 TC_10: ("Backstage passes to a TAFKAL80ETC concert", 0, 20) => (-1, 0)
