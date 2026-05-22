@@ -33,4 +33,12 @@ describe("Gilded Rose", function() {
     expect(items[0].quality).toEqual(21);
   });
 
+  // TC_5
+  it("should never let quality increase above 50", function() {
+    const gildedRose = new Shop([ new Item("Aged Brie", 10, 50) ]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].sellIn).toEqual(9);
+    expect(items[0].quality).toEqual(50);
+  });
+
 });
