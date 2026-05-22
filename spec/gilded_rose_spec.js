@@ -17,4 +17,12 @@ describe("Gilded Rose", function() {
     expect(items[0].quality).toEqual(18);
   });
 
+  // TC_3
+  it("should never allow quality to be negative", function() {
+    const gildedRose = new Shop([ new Item("Normal Item", 10, 0) ]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].sellIn).toEqual(9);
+    expect(items[0].quality).toEqual(0);
+  });
+
 });
