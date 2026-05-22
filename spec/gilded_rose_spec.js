@@ -82,4 +82,11 @@ describe("Gilded Rose", function() {
       expect(items[0].quality).toEqual(0);
     });
 
+  // conjured items
+  // TC_11
+  it("should degrade in quality twice as fast as normal items before sellIn", function() {
+      const gildedRose = new Shop([ new Item("Conjured Mana Cake", 10, 20) ]);
+      const items = gildedRose.updateQuality();
+      expect(items[0].quality).toEqual(18);
+    });
 });
