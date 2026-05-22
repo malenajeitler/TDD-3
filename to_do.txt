@@ -11,4 +11,4 @@ TC_10: ("Backstage passes to a TAFKAL80ETC concert", 0, 20) => (-1, 0) // done
 
 // New Feature
 TC_11: ("Conjured Mana Cake", 10, 20) => (9, 18) // done
-TC_12: ("Conjured Mana Cake", 0, 20) => (-1, 16)
+TC_12: ("Conjured Mana Cake", 0, 20) => (-1, 16) // in progress
